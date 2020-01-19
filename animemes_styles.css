@@ -1,0 +1,106 @@
+/*button to return to home screen*/
+.home {
+  width: 20%;
+  padding: 5px 5px;
+  position: absolute;
+  top: 5%;
+  left: 10.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+
+.home:hover {
+  background-color: grey;
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.home:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  color: white;
+}
+
+/*header image*/
+.container {
+  position: static;
+  text-align: left;
+}
+
+.headerPic {
+  width: 100%;
+}
+
+.welcome {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 90px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+/*God and Anime on my side*/
+.GodAnimeImg {
+  width: 50%;
+  align-self: center;
+  padding: 5px 5px;
+  border: 5px solid black;
+  border-radius: 30px;
+  box-shadow: 0 9px #999;
+}
+
+.GodAnimeB {
+  position: absolute;
+  padding: 5px 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.GodAnimeB:hover {
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.GodAnimeB:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  color: white;
+  background-blend-mode: multiply;
+}

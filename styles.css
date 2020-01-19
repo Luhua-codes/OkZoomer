@@ -1,0 +1,237 @@
+.container {
+  position: static;
+  text-align: center;
+}
+
+.welcome {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 80px;
+}
+
+.headerPic {
+  width: 100%;
+}
+
+.mainpage {
+  overflow: scroll;
+}
+
+.animemesB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #e11a1a; /* red */
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.animemesB:hover {
+  background-color: #871212;
+  color: white;
+}
+
+.animemesB:active {
+  background-color: #871212;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: white;
+}
+
+.deadB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #e1821a; /* orange */
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.deadB:hover {
+  background-color: #b9500b;
+  color: white;
+}
+
+.deadB:active {
+  background-color: #b9500b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: white;
+}
+
+.dankB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #ecff14; /* yellow */
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.dankB:hover {
+  background-color: #bcc30a;
+  color: white;
+}
+
+.dankB:active {
+  background-color: #bcc30a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: white;
+}
+/*
+.jesusB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #09f51c; // green
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.jesusB:hover {
+  background-color: #0c9314;
+  color: white;
+}
+
+.jesusB:active {
+  background-color: #0c9314;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: white;
+}
+
+.reactionB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #09f5dd; //aqua
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.reactionB:hover {
+  background-color: #10b0c2;
+  color: white;
+}
+
+.reactionB:active {
+  background-color: #10b0c2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: #white;
+}
+
+.keanuB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #1709f5; //blue
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.keanuB:hover {
+  background-color: #0f0674;
+  color: white;
+}
+
+.keanuB:active {
+  background-color: #0f0674;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: white;
+}
+
+.wholesomeB {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 32px;
+  margin: 10px;
+
+  font-size: 24px;
+  text-align: center;
+  background-color: #f509dd; //pink
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.wholesomeB:hover {
+  background-color: #b30ba8;
+  color: white;
+}
+
+.wholesomeB:active {
+  background-color: #0f0674;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: white;
+}
+*/

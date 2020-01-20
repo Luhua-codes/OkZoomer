@@ -1,1 +1,232 @@
-<p>test dank</p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="dank_styles.css" />
+    <script src="dankButtons.js"></script>
+    <title>DANK MEMES</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="https://thenerdd.files.wordpress.com/2019/08/fslwqmq.jpg?w=816"
+        alt="dank memes header"
+        class="headerPic"
+      />
+      <h1 class="welcome">DANK MEMES</h1>
+      <button type="button" class="home" onclick="location.href='index.html'">
+        < back to main menu
+      </button>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(0)"
+          src="https://fsmedia.imgix.net/f8/88/c5/0b/2e5e/4689/9c2f/b6e44e51b80d/a-knife.png?auto=compress&h=1200&w=1200&crop=edges&fit=crop"
+          alt="let me see what you have a knife"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(1)"
+          src="https://i.makeagif.com/media/10-03-2015/PmM5Ej.gif"
+          alt="am or fm"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(2)"
+          src="https://i.kym-cdn.com/photos/images/newsfeed/001/337/421/a78.png"
+          alt="Burger King Foot lettuce"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(3)"
+          src="http://cdn140.picsart.com/302136202372201.jpg"
+          alt="revenge"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(4)"
+          src="data:image/jpeg;base64,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"
+          alt="crunchyroll take me home"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(5)"
+          src="https://i.ytimg.com/vi/Jz_PGfcrsek/hqdefault.jpg"
+          alt="discustang"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(6)"
+          src="https://coubsecure-s.akamaihd.net/get/b185/p/coub/simple/cw_timeline_pic/0bc4c806b20/cef76a68227117c4498d4/med_1505997713_image.jpg"
+          alt="do u remember the very first night of september"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(7)"
+          src="https://i.ytimg.com/vi/P9wcFdweHpU/hqdefault.jpg"
+          alt="fuck bbygirl dont kill urself"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(8)"
+          src="https://i.kym-cdn.com/entries/icons/original/000/002/691/sings.jpg"
+          alt="heya"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(9)"
+          src="https://i.pinimg.com/originals/cf/94/11/cf9411dbaf14c1eb3b60680801daf2a3.jpg"
+          alt="I love you bitch I ain't never gonna stop loving you bitch vine"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(10)"
+          src="https://junkee.com/wp-content/uploads/2019/04/Brooklyn-Nine-Nine-Backstreet-Boys.jpg"
+          alt="i want it that way"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(11)"
+          src="https://i.ytimg.com/vi/OkvpeQuRDuQ/maxresdefault.jpg"
+          alt="its high noon"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(12)"
+          src="https://i.kym-cdn.com/entries/icons/original/000/026/912/Screen_Shot_2018-08-13_at_1.46.37_PM.jpg"
+          alt="kanye west likes fingers in his ass"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(13)"
+          src="https://pbs.twimg.com/media/EDp_VzWXsAAMnNd.jpg"
+          alt="megalovania"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(14)"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/DefaultMii.png/220px-DefaultMii.png"
+          alt="mii"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(15)"
+          src="https://i.ytimg.com/vi/KK4te6bWGOI/maxresdefault.jpg"
+          alt="i think moto moto likes you"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(16)"
+          src="https://i.redd.it/8q7qjk1z3uy01.jpg"
+          alt="SOUP"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(17)"
+          src="https://i.kym-cdn.com/photos/images/newsfeed/001/499/826/2f0.png"
+          alt="stonks"
+        />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <input
+          type="image"
+          class="leftImg"
+          onclick="PlaySound(18)"
+          src="https://i.kym-cdn.com/photos/images/original/000/055/846/1272671189298.png"
+          alt="u touch my tralalala"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="centreImg"
+          onclick="PlaySound(19)"
+          src="https://i.ytimg.com/vi/Us7zy13so-0/maxresdefault.jpg"
+          alt="we are number 1"
+        />
+      </div>
+      <div class="column">
+        <input
+          type="image"
+          class="rightImg"
+          onclick="PlaySound(20)"
+          src="https://pbs.twimg.com/media/CQgUWkcWgAAXq1c.png"
+          alt="why the fuck u lyin"
+        />
+      </div>
+    </div>
+  </body>
+</html>

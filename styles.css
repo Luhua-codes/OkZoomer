@@ -22,6 +22,8 @@
   -webkit-background-clip: text;
   color: transparent;
   font-size: 80px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .headerPic {
@@ -118,8 +120,8 @@
   transform: translateY(4px);
   color: white;
 }
-/*
-.jesusB {
+
+.JoJoB {
   width: 100%;
   display: inline-block;
   padding: 20px 32px;
@@ -136,19 +138,19 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
-.jesusB:hover {
+.JoJoB:hover {
   background-color: #0c9314;
   color: white;
 }
 
-.jesusB:active {
+.JoJoB:active {
   background-color: #0c9314;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   color: white;
 }
 
-.reactionB {
+.haikyuuB {
   width: 100%;
   display: inline-block;
   padding: 20px 32px;
@@ -165,18 +167,19 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
-.reactionB:hover {
+.haikyuuB:hover {
   background-color: #10b0c2;
   color: white;
 }
 
-.reactionB:active {
+.haikyuuB:active {
   background-color: #10b0c2;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   color: #white;
 }
 
+/*
 .keanuB {
   width: 100%;
   display: inline-block;

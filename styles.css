@@ -1,5 +1,5 @@
 .container {
-  position: static;
+  position: relative;
   text-align: center;
 }
 
@@ -239,3 +239,9 @@
   color: white;
 }
 */
+
+@media(max-width: 740px){
+  .welcome{
+    font-size: 50px;
+  }
+}

@@ -71,6 +71,7 @@
   font-size: 88px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+  box-sizing: border-box;
 }
 
 .column {

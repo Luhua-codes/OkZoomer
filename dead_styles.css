@@ -71,6 +71,7 @@
   font-size: 90px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+  box-sizing: border-box;
 }
 
 .column {
@@ -123,4 +124,29 @@
   cursor: pointer;
   background-color: transparent;
   width: 100%;
+}
+
+@media(max-width: 1324px){
+  .welcome{
+    font-size: 80px;
+  }
+}
+
+
+@media(max-width: 1184px){
+  .welcome{
+    font-size: 60px;
+    top: 35%;
+  }
+}
+
+@media(max-width: 912px){
+  .welcome{
+    font-size: 30px;
+    top: 20%;
+  }
+  
+  .home{
+    font-size: 10px;
+  }
 }

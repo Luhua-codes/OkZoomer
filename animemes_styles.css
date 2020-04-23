@@ -79,14 +79,14 @@
   float: left;
   width: 28%;
   text-align: center;
- }
- /* Clear floats after the columns */
- .row:after {
+}
+/* Clear floats after the columns */
+.row:after {
   content: "";
   display: table;
-  clear: both;  
+  clear: both;
   margin-bottom: 10px;
- }
+}
 
 /*God and Anime on my side*/
 .leftImg {
@@ -100,7 +100,7 @@
   width: 100%;
 }
 
-.centreImg{
+.centreImg {
   position: relative;
   left: 25%;
   align-self: center;
@@ -112,7 +112,7 @@
   width: 100%;
 }
 
-.rightImg{
+.rightImg {
   position: relative;
   left: 50%;
   align-self: center;
@@ -124,4 +124,26 @@
   width: 100%;
 }
 
+@media (max-width: 1324px) {
+  .welcome {
+    font-size: 80px;
+  }
+}
 
+@media (max-width: 1184px) {
+  .welcome {
+    font-size: 40px;
+    top: 20%;
+  }
+}
+
+@media (max-width: 907px) {
+  .welcome {
+    font-size: 30px;
+    top: 10%;
+  }
+
+  .home {
+    font-size: 10px;
+  }
+}

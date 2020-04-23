@@ -125,3 +125,28 @@
   background-color: transparent;
   width: 100%;
 }
+
+@media(max-width: 1336px){
+  .welcome{
+    font-size: 80px;
+  }
+}
+
+
+@media(max-width: 1242px){
+  .welcome{
+    font-size: 70px;
+    top: 30%;
+  }
+}
+
+@media(max-width: 1067px){
+  .welcome{
+    font-size: 40px;
+    top: 20%;
+  }
+  
+  .home{
+    font-size: 10px;
+  }
+}
